@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2.0</title>
+</head>
+<body>
+    <form action="" onsubmit="alert('Pedido Enviado :)')" method="post">
+        <h1 class="pizza">Monte sua pizza</h1>
+        <h3>Tamanhos</h3>
+        <input type="radio" name="tamanhos" value="broto">Broto <br>
+        <input type="radio" name="tamanhos" value="media">Media<br>
+        <input type="radio" name="tamanhos" value="grande">Grande <br>
+        <input type="radio" name="tamanhos" value="gigante">Gigante <br>
+        
+        <h3>Sabores</h3>
+        <input type="checkbox" name="sabor" value="calabresa">Calabresa <br>
+        <input type="checkbox" name="sabor" value="mussarela">Mussarela <br>
+        <input type="checkbox" name="sabor" value="napolitana">Napolitana <br>
+        <input type="checkbox" name="sabor" value="4queijos">4 Queijos <br>
+         
+        <h3>Bordas Recheadas</h3>
+        <input type="radio" name="bordas" value="requeijão"> Requeijão <br>
+        <input type="radio" name="bordas" value="cheddar"> Cheddar <br>
+        <input type="radio" name="bordas" value="catupiry"> Catupiry <br>
+        <input type="radio" name="bordas" value="nenhuma"> Nenhuma <br>
+
+        <h3>Adicionais</h3>
+        <input type="checkbox" name="adicional[]" value="bacon"> Bacon <br>
+        <input type="checkbox" name="adicional[]" value="mussarela"> Mussarela <br>
+        <input type="checkbox" name="adicional[]" value="batatapalha"> Batata Palha <br>
+
+        <h3>Deseja Bebida?</h3>
+        <input type="radio" name="bebida" value="Refrigerante">Refrigerante <br>
+        <input type="radio" name="bebida" value="Suco">Suco <br>
+        <input type="radio" name="bebida" value="Cerveja">Cerveja <br>
+
+        <button type="submit">Envia Pedido</button>
+
+    </form>
+</body>
+</html>
